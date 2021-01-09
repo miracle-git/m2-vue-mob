@@ -1,0 +1,30 @@
+@import "./vars.less";
+@import "./mixins.less";
+
+.home-page {
+  padding-top: 20%;
+  height: calc(100vh);
+  .bg-colors();
+  color: #fff;
+  .home-header {
+    .flex-center();
+    flex-direction: column;
+    .subtitle {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  }
+  .home-flavor {
+    text-align: center;
+    margin-top: 50%;
+    font-size: 16px;
+    .dropdown-menu {
+      color: @color-text-dark;
+      margin-bottom: 15px;
+    }
+    .detail a {
+      color: #fff;
+      font-weight: @font-bold;
+    }
+  }
+}
