@@ -24,7 +24,7 @@
   - assets 所有业务静态资源文件(内部建议拆分为: css/img/js/icon/svg等)
   - components 所有业务公共组件，建议每个组件包含一个单独文件夹，且内部包含index.vue和index.less(实现样式和业务分离)，建议所有的公共组件以index.js集中导出
   - config 所有配置文件，建议以(.conf.js)结尾(内部建议拆分为: api.conf.js/app.conf.js/env.conf.js等)
-  - locales 所有国际化配置文件(非必需)，如果不需要请同时删除utils/render-all, utils/render-partial.js中i18n的配置
+  - locales 所有国际化配置文件(非必需)，如果不需要请同时删除utils/render/all.js, utils/render/partial.js中i18n的配置
   - mixins 所有混入配置(非必需)，建议所有的混入以index.js集中导出
   - models 所有业务模型配置(非必需)，一般用于服务端业务模型无法满足前端需求或提取部分数据所用, 解耦部分views中的业务逻辑
   - plugins 所有第三方插件配置，一般用于集成全局项目第三方框架，如：Element, Vant, M2等
