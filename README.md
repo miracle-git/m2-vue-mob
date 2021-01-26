@@ -1,6 +1,6 @@
 > 基于[M2前端全家桶框架](https://github.com/miracle-git/m2-vue-mob)搭建的企业级Mob端开发应用。
 
-## [项目规范](https://github.com/miracle-git/m2-vue-web/blob/main/PROJECT.md)
+## [项目规范](https://github.com/miracle-git/m2-vue-mob/blob/main/PROJECT.md)
 
 ## 运行步骤
 

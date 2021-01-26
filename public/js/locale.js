@@ -1,4 +1,4 @@
-function loadLocaleScript({ cdn, app, keys = [], lang = 'zh-cn' } = {}) {
+window.loadLocaleScript = function({ cdn, app, keys = [], lang = 'zh-cn' } = {}) {
   const defaultLang = localStorage.getItem('sdc-sys-def-lang') || lang
   const localeKeys = Array.isArray(keys) ? keys : (typeof keys === 'string' ? [keys] : [])
   let count = 0

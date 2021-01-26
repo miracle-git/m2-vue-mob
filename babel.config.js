@@ -8,7 +8,7 @@ module.exports = {
       {
         'libraryName': 'm2-mobui',
         'styleLibraryName': 'theme-grace'
-      }, 'sdc-mobui'
+      }, 'm2-mobui'
     ],
     [
       'import',
